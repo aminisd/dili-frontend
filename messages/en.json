@@ -1,0 +1,6 @@
+{
+  "common": {
+    "hello": "Hello",
+    "signIn": "Sign in"
+  }
+}
