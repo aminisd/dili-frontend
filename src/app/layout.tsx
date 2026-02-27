@@ -1,15 +1,11 @@
-import {NextIntlClientProvider} from 'next-intl';
- 
 type Props = {
   children: React.ReactNode;
 };
  
-export default async function RootLayout({children}: Props) {
+export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html>
-      <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }

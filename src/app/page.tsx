@@ -1,6 +1,6 @@
-import {useTranslations} from 'next-intl';
- 
+import {redirect} from 'next/navigation';
+import {routing} from '../i18n/routing';
+
 export default function HomePage() {
-  const t = useTranslations('common');
-  return <h1>{t('hello')}</h1>;
+  redirect(`/${routing.defaultLocale}`);
 }
