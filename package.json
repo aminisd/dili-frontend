@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "preinstall": "npx only-allow pnpm"
+    "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -22,7 +25,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "only-allow": "^1.2.2",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
