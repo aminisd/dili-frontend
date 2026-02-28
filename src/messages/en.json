@@ -2,5 +2,35 @@
   "common": {
     "hello": "Hello",
     "signIn": "Sign in"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in"
+    },
+    "signup": {
+      "title": "Create your account"
+    },
+    "form": {
+      "fullName": "Full name",
+      "email": "Email",
+      "password": "Password"
+    },
+    "actions": {
+      "submit": "Continue",
+      "submitting": "Submitting"
+    },
+    "links": {
+      "toSignup": "Create an account",
+      "toLogin": "Already have an account? Sign in"
+    },
+    "social": {
+      "or": "Or continue with",
+      "google": "Continue with Google",
+      "facebook": "Continue with Facebook"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "notConfigured": "Social sign-in is not available yet."
+    }
   }
 }

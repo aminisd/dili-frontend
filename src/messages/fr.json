@@ -2,5 +2,35 @@
   "common": {
     "hello": "Bonjour",
     "signIn": "Se connecter"
+  },
+  "auth": {
+    "login": {
+      "title": "Se connecter"
+    },
+    "signup": {
+      "title": "Créer un compte"
+    },
+    "form": {
+      "fullName": "Nom complet",
+      "email": "E-mail",
+      "password": "Mot de passe"
+    },
+    "actions": {
+      "submit": "Continuer",
+      "submitting": "Envoi en cours"
+    },
+    "links": {
+      "toSignup": "Créer un compte",
+      "toLogin": "Vous avez déjà un compte ? Se connecter"
+    },
+    "social": {
+      "or": "Ou continuer avec",
+      "google": "Continuer avec Google",
+      "facebook": "Continuer avec Facebook"
+    },
+    "errors": {
+      "generic": "Une erreur est survenue. Veuillez réessayer.",
+      "notConfigured": "La connexion sociale n'est pas encore disponible."
+    }
   }
 }
